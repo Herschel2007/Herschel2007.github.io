@@ -6,98 +6,104 @@
     <title>Herschel | Student Developer</title>
     <meta
       name="description"
-      content="Personal website for Herschel, a student developer building projects and learning in public."
+      content="Herschel is a student developer learning through small projects, code experiments, and public practice."
     >
+    <meta name="theme-color" content="hsl(150 18% 98%)">
     <link rel="preconnect" href="https://github.com">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Herschel home">Herschel</a>
+      <a class="wordmark" href="#top" aria-label="Herschel home">Herschel</a>
       <nav aria-label="Primary navigation">
         <a href="#work">Work</a>
-        <a href="#about">About</a>
+        <a href="#practice">Practice</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Student developer</p>
-          <h1 id="hero-title">Hi, I am Herschel.</h1>
+        <div class="hero-text">
+          <p class="role">Student developer</p>
+          <h1 id="hero-title">Building quietly, learning in public.</h1>
           <p class="intro">
-            I am building my skills in code, design, and problem solving. This
-            site is a small home for my projects, experiments, and notes as I
-            keep learning.
+            Herschel is learning software by making small, useful things and
+            improving them over time. This page is the home base for his code,
+            experiments, and future project notes.
           </p>
-          <div class="actions" aria-label="Primary actions">
-            <a class="button primary" href="https://github.com/Herschel2007">View GitHub</a>
-            <a class="button secondary" href="#work">See Work</a>
-          </div>
         </div>
-        <div class="profile-panel" aria-label="GitHub profile">
+
+        <aside class="identity" aria-label="Herschel GitHub profile">
           <img
             class="avatar"
             src="https://github.com/Herschel2007.png"
-            alt="Herschel GitHub avatar"
+            alt="Herschel's GitHub avatar"
           >
-          <div>
-            <p class="panel-label">GitHub</p>
-            <p class="panel-title">@Herschel2007</p>
-            <a href="https://github.com/Herschel2007">github.com/Herschel2007</a>
+          <div class="identity-copy">
+            <p class="label">GitHub</p>
+            <a href="https://github.com/Herschel2007">@Herschel2007</a>
           </div>
-        </div>
+        </aside>
       </section>
 
-      <section id="work" class="section" aria-labelledby="work-title">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2 id="work-title">Work in progress</h2>
+      <section id="work" class="section work" aria-labelledby="work-title">
+        <div class="section-title">
+          <p class="label">Current focus</p>
+          <h2 id="work-title">A simple place for real projects as they arrive.</h2>
         </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <h3>Personal Website</h3>
-            <p>
-              A GitHub Pages site to collect projects, links, and learning
-              milestones in one place.
-            </p>
+
+        <div class="project-list" aria-label="Project list">
+          <article class="project-item">
+            <span class="project-index">01</span>
+            <div>
+              <h3>Personal Website</h3>
+              <p>
+                A minimal GitHub Pages site for collecting links, project
+                notes, and learning milestones.
+              </p>
+            </div>
             <a href="https://github.com/Herschel2007/Herschel2007.github.io">Repository</a>
           </article>
-          <article class="project-card">
-            <h3>Next Project</h3>
-            <p>
-              Add a project summary here when the next repository, experiment,
-              or school project is ready to share.
-            </p>
+
+          <article class="project-item muted-item">
+            <span class="project-index">02</span>
+            <div>
+              <h3>Next build</h3>
+              <p>
+                Reserved for the next finished experiment, school project, or
+                repository worth sharing.
+              </p>
+            </div>
             <span>Coming soon</span>
           </article>
         </div>
       </section>
 
-      <section id="about" class="section split" aria-labelledby="about-title">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2 id="about-title">Learning by making</h2>
+      <section id="practice" class="section practice" aria-labelledby="practice-title">
+        <div class="section-title">
+          <p class="label">Practice</p>
+          <h2 id="practice-title">Skills compound through small reps.</h2>
         </div>
-        <p>
-          I enjoy exploring technology, improving my coding skills, and turning
-          ideas into small working projects. This page will grow as I add more
-          finished work, writing, and experience.
-        </p>
+        <div class="practice-grid">
+          <p>Code experiments</p>
+          <p>Project writeups</p>
+          <p>Problem solving</p>
+          <p>Web fundamentals</p>
+        </div>
       </section>
 
       <section id="contact" class="section contact" aria-labelledby="contact-title">
         <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Find me online</h2>
+          <p class="label">Contact</p>
+          <h2 id="contact-title">Start with GitHub.</h2>
         </div>
-        <a class="button primary" href="https://github.com/Herschel2007">GitHub Profile</a>
+        <a class="quiet-link" href="https://github.com/Herschel2007">github.com/Herschel2007</a>
       </section>
     </main>
 
     <footer>
-      <p>Built with GitHub Pages.</p>
+      <p>Herschel2007.github.io</p>
     </footer>
   </body>
 </html>
